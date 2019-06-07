@@ -1,0 +1,14 @@
+D:\zpc\source\demo\ids4\ids4demo\WebApi\bin\Release\netcoreapp2.2\WebApi.deps.json
+D:\zpc\source\demo\ids4\ids4demo\WebApi\bin\Release\netcoreapp2.2\WebApi.runtimeconfig.json
+D:\zpc\source\demo\ids4\ids4demo\WebApi\bin\Release\netcoreapp2.2\WebApi.runtimeconfig.dev.json
+D:\zpc\source\demo\ids4\ids4demo\WebApi\bin\Release\netcoreapp2.2\WebApi.dll
+D:\zpc\source\demo\ids4\ids4demo\WebApi\bin\Release\netcoreapp2.2\WebApi.pdb
+D:\zpc\source\demo\ids4\ids4demo\WebApi\obj\Release\netcoreapp2.2\WebApi.csprojAssemblyReference.cache
+D:\zpc\source\demo\ids4\ids4demo\WebApi\obj\Release\netcoreapp2.2\WebApi.csproj.CoreCompileInputs.cache
+D:\zpc\source\demo\ids4\ids4demo\WebApi\obj\Release\netcoreapp2.2\WebApi.RazorAssemblyInfo.cache
+D:\zpc\source\demo\ids4\ids4demo\WebApi\obj\Release\netcoreapp2.2\WebApi.RazorAssemblyInfo.cs
+D:\zpc\source\demo\ids4\ids4demo\WebApi\obj\Release\netcoreapp2.2\WebApi.AssemblyInfoInputs.cache
+D:\zpc\source\demo\ids4\ids4demo\WebApi\obj\Release\netcoreapp2.2\WebApi.AssemblyInfo.cs
+D:\zpc\source\demo\ids4\ids4demo\WebApi\obj\Release\netcoreapp2.2\WebApi.RazorTargetAssemblyInfo.cache
+D:\zpc\source\demo\ids4\ids4demo\WebApi\obj\Release\netcoreapp2.2\WebApi.dll
+D:\zpc\source\demo\ids4\ids4demo\WebApi\obj\Release\netcoreapp2.2\WebApi.pdb

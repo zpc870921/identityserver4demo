@@ -1,0 +1,11 @@
+D:\zpc\source\demo\ids4\ids4demo\MvcHybridClient\bin\Release\netcoreapp2.2\MvcHybridClient.deps.json
+D:\zpc\source\demo\ids4\ids4demo\MvcHybridClient\bin\Release\netcoreapp2.2\MvcHybridClient.runtimeconfig.json
+D:\zpc\source\demo\ids4\ids4demo\MvcHybridClient\bin\Release\netcoreapp2.2\MvcHybridClient.runtimeconfig.dev.json
+D:\zpc\source\demo\ids4\ids4demo\MvcHybridClient\bin\Release\netcoreapp2.2\MvcHybridClient.dll
+D:\zpc\source\demo\ids4\ids4demo\MvcHybridClient\bin\Release\netcoreapp2.2\MvcHybridClient.pdb
+D:\zpc\source\demo\ids4\ids4demo\MvcHybridClient\obj\Release\netcoreapp2.2\MvcHybridClient.csprojAssemblyReference.cache
+D:\zpc\source\demo\ids4\ids4demo\MvcHybridClient\obj\Release\netcoreapp2.2\MvcHybridClient.csproj.CoreCompileInputs.cache
+D:\zpc\source\demo\ids4\ids4demo\MvcHybridClient\obj\Release\netcoreapp2.2\MvcHybridClient.AssemblyInfoInputs.cache
+D:\zpc\source\demo\ids4\ids4demo\MvcHybridClient\obj\Release\netcoreapp2.2\MvcHybridClient.AssemblyInfo.cs
+D:\zpc\source\demo\ids4\ids4demo\MvcHybridClient\obj\Release\netcoreapp2.2\MvcHybridClient.dll
+D:\zpc\source\demo\ids4\ids4demo\MvcHybridClient\obj\Release\netcoreapp2.2\MvcHybridClient.pdb

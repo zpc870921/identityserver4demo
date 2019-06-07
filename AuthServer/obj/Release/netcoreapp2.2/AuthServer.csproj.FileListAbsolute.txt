@@ -1,0 +1,11 @@
+D:\zpc\source\demo\ids4\ids4demo\AuthServer\bin\Release\netcoreapp2.2\AuthServer.deps.json
+D:\zpc\source\demo\ids4\ids4demo\AuthServer\bin\Release\netcoreapp2.2\AuthServer.runtimeconfig.json
+D:\zpc\source\demo\ids4\ids4demo\AuthServer\bin\Release\netcoreapp2.2\AuthServer.runtimeconfig.dev.json
+D:\zpc\source\demo\ids4\ids4demo\AuthServer\bin\Release\netcoreapp2.2\AuthServer.dll
+D:\zpc\source\demo\ids4\ids4demo\AuthServer\bin\Release\netcoreapp2.2\AuthServer.pdb
+D:\zpc\source\demo\ids4\ids4demo\AuthServer\obj\Release\netcoreapp2.2\AuthServer.csprojAssemblyReference.cache
+D:\zpc\source\demo\ids4\ids4demo\AuthServer\obj\Release\netcoreapp2.2\AuthServer.csproj.CoreCompileInputs.cache
+D:\zpc\source\demo\ids4\ids4demo\AuthServer\obj\Release\netcoreapp2.2\AuthServer.AssemblyInfoInputs.cache
+D:\zpc\source\demo\ids4\ids4demo\AuthServer\obj\Release\netcoreapp2.2\AuthServer.AssemblyInfo.cs
+D:\zpc\source\demo\ids4\ids4demo\AuthServer\obj\Release\netcoreapp2.2\AuthServer.dll
+D:\zpc\source\demo\ids4\ids4demo\AuthServer\obj\Release\netcoreapp2.2\AuthServer.pdb

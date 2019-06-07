@@ -1,0 +1,13 @@
+D:\zpc\source\demo\ids4\ids4demo\JavaScriptClient\bin\Debug\netcoreapp2.2\JavaScriptClient.deps.json
+D:\zpc\source\demo\ids4\ids4demo\JavaScriptClient\bin\Debug\netcoreapp2.2\JavaScriptClient.runtimeconfig.json
+D:\zpc\source\demo\ids4\ids4demo\JavaScriptClient\bin\Debug\netcoreapp2.2\JavaScriptClient.runtimeconfig.dev.json
+D:\zpc\source\demo\ids4\ids4demo\JavaScriptClient\bin\Debug\netcoreapp2.2\JavaScriptClient.dll
+D:\zpc\source\demo\ids4\ids4demo\JavaScriptClient\bin\Debug\netcoreapp2.2\JavaScriptClient.pdb
+D:\zpc\source\demo\ids4\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.csproj.CoreCompileInputs.cache
+D:\zpc\source\demo\ids4\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.RazorAssemblyInfo.cache
+D:\zpc\source\demo\ids4\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.RazorAssemblyInfo.cs
+D:\zpc\source\demo\ids4\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.AssemblyInfoInputs.cache
+D:\zpc\source\demo\ids4\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.AssemblyInfo.cs
+D:\zpc\source\demo\ids4\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.RazorTargetAssemblyInfo.cache
+D:\zpc\source\demo\ids4\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.dll
+D:\zpc\source\demo\ids4\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.pdb

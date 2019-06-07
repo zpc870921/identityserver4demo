@@ -1,0 +1,35 @@
+﻿@using  Microsoft.AspNetCore.Authentication;
+@model  ValuesViewModel
+@{
+    ViewData["Title"] = "About";
+}
+
+<h1>About</h1>
+<div>
+    <p>id_token: @await ViewContext.HttpContext.GetTokenAsync("id_token")</p>
+</div>
+
+<div>
+    <p>access_token: @await ViewContext.HttpContext.GetTokenAsync("access_token")</p>
+</div>
+
+<div>
+    <p>refresh_token: @await ViewContext.HttpContext.GetTokenAsync("refresh_token")</p>
+</div>
+
+user.claim
+<dl>
+    @foreach (var item in User.Claims)
+    {
+        <dt>@item.Type</dt>
+        <dd>@item.Value</dd>
+    }
+</dl>
+
+webapi data
+<ul>
+    @foreach(var item in Model.Values)
+    {
+        <li>@item</li>
+    }
+</ul>

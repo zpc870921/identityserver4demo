@@ -1,0 +1,11 @@
+D:\zpc\source\demo\ids4\ids4demo\CustomUserServiceClient\bin\Debug\netcoreapp2.2\CustomUserServiceClient.deps.json
+D:\zpc\source\demo\ids4\ids4demo\CustomUserServiceClient\bin\Debug\netcoreapp2.2\CustomUserServiceClient.runtimeconfig.json
+D:\zpc\source\demo\ids4\ids4demo\CustomUserServiceClient\bin\Debug\netcoreapp2.2\CustomUserServiceClient.runtimeconfig.dev.json
+D:\zpc\source\demo\ids4\ids4demo\CustomUserServiceClient\bin\Debug\netcoreapp2.2\CustomUserServiceClient.dll
+D:\zpc\source\demo\ids4\ids4demo\CustomUserServiceClient\obj\Debug\netcoreapp2.2\CustomUserServiceClient.csproj.CoreCompileInputs.cache
+D:\zpc\source\demo\ids4\ids4demo\CustomUserServiceClient\obj\Debug\netcoreapp2.2\CustomUserServiceClient.AssemblyInfoInputs.cache
+D:\zpc\source\demo\ids4\ids4demo\CustomUserServiceClient\obj\Debug\netcoreapp2.2\CustomUserServiceClient.AssemblyInfo.cs
+D:\zpc\source\demo\ids4\ids4demo\CustomUserServiceClient\bin\Debug\netcoreapp2.2\CustomUserServiceClient.pdb
+D:\zpc\source\demo\ids4\ids4demo\CustomUserServiceClient\obj\Debug\netcoreapp2.2\CustomUserServiceClient.csprojAssemblyReference.cache
+D:\zpc\source\demo\ids4\ids4demo\CustomUserServiceClient\obj\Debug\netcoreapp2.2\CustomUserServiceClient.dll
+D:\zpc\source\demo\ids4\ids4demo\CustomUserServiceClient\obj\Debug\netcoreapp2.2\CustomUserServiceClient.pdb

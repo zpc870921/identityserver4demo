@@ -1,0 +1,11 @@
+D:\zpc\source\demo\ids4\ids4demo\MvcClient\bin\Release\netcoreapp2.2\MvcClient.deps.json
+D:\zpc\source\demo\ids4\ids4demo\MvcClient\bin\Release\netcoreapp2.2\MvcClient.runtimeconfig.json
+D:\zpc\source\demo\ids4\ids4demo\MvcClient\bin\Release\netcoreapp2.2\MvcClient.runtimeconfig.dev.json
+D:\zpc\source\demo\ids4\ids4demo\MvcClient\bin\Release\netcoreapp2.2\MvcClient.dll
+D:\zpc\source\demo\ids4\ids4demo\MvcClient\bin\Release\netcoreapp2.2\MvcClient.pdb
+D:\zpc\source\demo\ids4\ids4demo\MvcClient\obj\Release\netcoreapp2.2\MvcClient.csprojAssemblyReference.cache
+D:\zpc\source\demo\ids4\ids4demo\MvcClient\obj\Release\netcoreapp2.2\MvcClient.csproj.CoreCompileInputs.cache
+D:\zpc\source\demo\ids4\ids4demo\MvcClient\obj\Release\netcoreapp2.2\MvcClient.AssemblyInfoInputs.cache
+D:\zpc\source\demo\ids4\ids4demo\MvcClient\obj\Release\netcoreapp2.2\MvcClient.AssemblyInfo.cs
+D:\zpc\source\demo\ids4\ids4demo\MvcClient\obj\Release\netcoreapp2.2\MvcClient.dll
+D:\zpc\source\demo\ids4\ids4demo\MvcClient\obj\Release\netcoreapp2.2\MvcClient.pdb

@@ -1,0 +1,11 @@
+D:\zpc\source\demo\ids4\ids4demo\XamarinClient\bin\Debug\netcoreapp2.2\XamarinClient.deps.json
+D:\zpc\source\demo\ids4\ids4demo\XamarinClient\bin\Debug\netcoreapp2.2\XamarinClient.runtimeconfig.json
+D:\zpc\source\demo\ids4\ids4demo\XamarinClient\bin\Debug\netcoreapp2.2\XamarinClient.runtimeconfig.dev.json
+D:\zpc\source\demo\ids4\ids4demo\XamarinClient\bin\Debug\netcoreapp2.2\XamarinClient.dll
+D:\zpc\source\demo\ids4\ids4demo\XamarinClient\obj\Debug\netcoreapp2.2\XamarinClient.csproj.CoreCompileInputs.cache
+D:\zpc\source\demo\ids4\ids4demo\XamarinClient\obj\Debug\netcoreapp2.2\XamarinClient.AssemblyInfoInputs.cache
+D:\zpc\source\demo\ids4\ids4demo\XamarinClient\obj\Debug\netcoreapp2.2\XamarinClient.AssemblyInfo.cs
+D:\zpc\source\demo\ids4\ids4demo\XamarinClient\bin\Debug\netcoreapp2.2\XamarinClient.pdb
+D:\zpc\source\demo\ids4\ids4demo\XamarinClient\obj\Debug\netcoreapp2.2\XamarinClient.dll
+D:\zpc\source\demo\ids4\ids4demo\XamarinClient\obj\Debug\netcoreapp2.2\XamarinClient.pdb
+D:\zpc\source\demo\ids4\ids4demo\XamarinClient\obj\Debug\netcoreapp2.2\XamarinClient.csprojAssemblyReference.cache
