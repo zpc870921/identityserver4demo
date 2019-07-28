@@ -23,7 +23,7 @@ namespace WebApi.Controllers
         }
 
         // GET api/values/5
-        [HttpGet("{id}")]
+        [HttpGet("{id}"), AllowAnonymous]
         public ActionResult<string> Get(int id)
         {
             return "value";

@@ -23,8 +23,8 @@ namespace WebApi.Controllers
         {
             _factory = factory;
         }
-
-        [Authorize,EnableCors]
+        [HttpGet]
+        [Authorize]
         public async Task<IActionResult> Get()
         {
             string access_token = await HttpContext.GetTokenAsync("access_token");

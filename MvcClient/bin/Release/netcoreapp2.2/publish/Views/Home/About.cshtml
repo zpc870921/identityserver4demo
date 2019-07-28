@@ -1,28 +1,28 @@
 ﻿@using  Microsoft.AspNetCore.Authentication;
-@model  ValuesViewModel
+@model ValuesViewModel
 @{
     ViewData["Title"] = "About";
 }
 
 <h1>About</h1>
 <div>
-    <p>id_token: @await ViewContext.HttpContext.GetTokenAsync("id_token")</p>
+    <p>id_token: @await Context.GetTokenAsync("id_token")</p>
 </div>
 
 <div>
-    <p>access_token: @await ViewContext.HttpContext.GetTokenAsync("access_token")</p>
+    <p>access_token: @await Context.GetTokenAsync("access_token")</p>
 </div>
 
 <div>
-    <p>refresh_token: @await ViewContext.HttpContext.GetTokenAsync("refresh_token")</p>
+    <p>refresh_token: @await Context.GetTokenAsync("refresh_token")</p>
 </div>
 
 user.claim
 <dl>
     @foreach (var item in User.Claims)
     {
-        <dt>@item.Type</dt>
-        <dd>@item.Value</dd>
+    <dt>@item.Type</dt>
+    <dd>@item.Value</dd>
     }
 </dl>
 
@@ -30,6 +30,40 @@ webapi data
 <ul>
     @foreach(var item in Model.Values)
     {
-        <li>@item</li>
+    <li>@item</li>
     }
 </ul>
+
+
+cookies data
+<ul>
+    @{
+        var authReuslt = await Context.AuthenticateAsync();
+        foreach (var item in authReuslt.Properties.Items)
+        {
+            <li>key:@item.Key---value:@item.Value</li>
+        }
+    }
+</ul>
+
+<button id="sendbtn">ajax</button>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script type="text/javascript">
+    $(function() {
+        $("#sendbtn").click(function() {
+            $.ajax({
+                type:"POST",
+                url: "/home/ajaxtest",
+                data: {},
+                success: function (d) {
+                    debugger;
+                    console.log(d);
+                },
+                error: function(e) {
+                    alert(e);
+                }
+            });
+        });
+    });
+</script>

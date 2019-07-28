@@ -9,3 +9,14 @@ D:\zpc\source\demo\ids4\ids4demo\MvcClient\obj\Release\netcoreapp2.2\MvcClient.A
 D:\zpc\source\demo\ids4\ids4demo\MvcClient\obj\Release\netcoreapp2.2\MvcClient.AssemblyInfo.cs
 D:\zpc\source\demo\ids4\ids4demo\MvcClient\obj\Release\netcoreapp2.2\MvcClient.dll
 D:\zpc\source\demo\ids4\ids4demo\MvcClient\obj\Release\netcoreapp2.2\MvcClient.pdb
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcClient\bin\Release\netcoreapp2.2\MvcClient.deps.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcClient\bin\Release\netcoreapp2.2\MvcClient.runtimeconfig.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcClient\bin\Release\netcoreapp2.2\MvcClient.runtimeconfig.dev.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcClient\bin\Release\netcoreapp2.2\MvcClient.dll
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcClient\bin\Release\netcoreapp2.2\MvcClient.pdb
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcClient\obj\Release\netcoreapp2.2\MvcClient.csprojAssemblyReference.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcClient\obj\Release\netcoreapp2.2\MvcClient.csproj.CoreCompileInputs.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcClient\obj\Release\netcoreapp2.2\MvcClient.AssemblyInfoInputs.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcClient\obj\Release\netcoreapp2.2\MvcClient.AssemblyInfo.cs
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcClient\obj\Release\netcoreapp2.2\MvcClient.dll
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcClient\obj\Release\netcoreapp2.2\MvcClient.pdb

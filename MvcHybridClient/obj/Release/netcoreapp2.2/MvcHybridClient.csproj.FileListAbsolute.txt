@@ -9,3 +9,14 @@ D:\zpc\source\demo\ids4\ids4demo\MvcHybridClient\obj\Release\netcoreapp2.2\MvcHy
 D:\zpc\source\demo\ids4\ids4demo\MvcHybridClient\obj\Release\netcoreapp2.2\MvcHybridClient.AssemblyInfo.cs
 D:\zpc\source\demo\ids4\ids4demo\MvcHybridClient\obj\Release\netcoreapp2.2\MvcHybridClient.dll
 D:\zpc\source\demo\ids4\ids4demo\MvcHybridClient\obj\Release\netcoreapp2.2\MvcHybridClient.pdb
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcHybridClient\bin\Release\netcoreapp2.2\MvcHybridClient.deps.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcHybridClient\bin\Release\netcoreapp2.2\MvcHybridClient.runtimeconfig.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcHybridClient\bin\Release\netcoreapp2.2\MvcHybridClient.runtimeconfig.dev.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcHybridClient\bin\Release\netcoreapp2.2\MvcHybridClient.dll
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcHybridClient\bin\Release\netcoreapp2.2\MvcHybridClient.pdb
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcHybridClient\obj\Release\netcoreapp2.2\MvcHybridClient.csprojAssemblyReference.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcHybridClient\obj\Release\netcoreapp2.2\MvcHybridClient.csproj.CoreCompileInputs.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcHybridClient\obj\Release\netcoreapp2.2\MvcHybridClient.AssemblyInfoInputs.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcHybridClient\obj\Release\netcoreapp2.2\MvcHybridClient.AssemblyInfo.cs
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcHybridClient\obj\Release\netcoreapp2.2\MvcHybridClient.dll
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\MvcHybridClient\obj\Release\netcoreapp2.2\MvcHybridClient.pdb

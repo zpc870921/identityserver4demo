@@ -14,7 +14,7 @@ namespace AuthServer.Data.migrations.identityserver.applicationdb
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.2.3-servicing-35854")
+                .HasAnnotation("ProductVersion", "2.2.4-servicing-10062")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             modelBuilder.Entity("AuthServer.ApplicationUser", b =>
@@ -35,6 +35,8 @@ namespace AuthServer.Data.migrations.identityserver.applicationdb
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken();
 
+                    b.Property<string>("DataEventRecordsRole");
+
                     b.Property<int>("DepartmentId");
 
                     b.Property<string>("Email")
@@ -43,6 +45,8 @@ namespace AuthServer.Data.migrations.identityserver.applicationdb
                     b.Property<bool>("EmailConfirmed");
 
                     b.Property<string>("IdCode");
+
+                    b.Property<bool>("IsAdmin");
 
                     b.Property<bool>("LockoutEnabled");
 
@@ -59,6 +63,8 @@ namespace AuthServer.Data.migrations.identityserver.applicationdb
                     b.Property<string>("PhoneNumber");
 
                     b.Property<bool>("PhoneNumberConfirmed");
+
+                    b.Property<string>("SecuredFilesRole");
 
                     b.Property<string>("SecurityStamp");
 

@@ -6,6 +6,6 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>D:\zpc\source\demo\ids4\ids4demo\WebApi\bin\Release\netcoreapp2.2\publish\</_PublishTargetUrl>
+    <_PublishTargetUrl>E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\WebApi\bin\Debug\netcoreapp2.2\publish\</_PublishTargetUrl>
   </PropertyGroup>
 </Project>

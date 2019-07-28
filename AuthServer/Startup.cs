@@ -12,7 +12,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Linq;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Identity;
+using StackExchange.Redis;
 
 namespace AuthServer
 {
@@ -28,6 +30,8 @@ namespace AuthServer
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddCors();
 
             services.AddHttpClient();
 
@@ -73,6 +77,10 @@ namespace AuthServer
 
             services.AddIdentityServer(options =>
                 {
+                    options.Authentication.CookieLifetime=TimeSpan.FromDays(1);
+                    options.Authentication.CookieSlidingExpiration = true;
+
+
                     options.Events.RaiseErrorEvents = true;
                     options.Events.RaiseFailureEvents = true;
                     options.Events.RaiseInformationEvents = true;
@@ -128,9 +136,14 @@ namespace AuthServer
                     });
                 };
             }).AddExtensionGrantValidator<CustomUserService>()
-                .AddAspNetIdentity<ApplicationUser>();
+                .AddAspNetIdentity<ApplicationUser>()
+                .AddProfileService<IdentityWithAdditionalClaimsProfileService>();
 
-            services.AddAuthentication().AddGoogle("Google", options =>
+            services.AddAuthentication(options =>
+                {
+                    options.DefaultAuthenticateScheme =
+                        IdentityServer4.IdentityServerConstants.DefaultCookieAuthenticationScheme;
+                }).AddGoogle("Google", options =>
                 {
                     options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
                     options.ClientId = "323340473202-tttjha8qaa2q7892fiffof3nddrnsp15.apps.googleusercontent.com";
@@ -140,7 +153,7 @@ namespace AuthServer
                      options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
                      options.SignOutScheme = IdentityServerConstants.SignoutScheme;
                      options.SaveTokens = true;
-
+                     
                      options.Authority = "https://demo.identityserver.io";
                      options.ClientId = "implicit";
 
@@ -152,6 +165,15 @@ namespace AuthServer
                  });
 
             services.AddMvc();
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.ExpireTimeSpan=TimeSpan.FromDays(1);
+                options.SlidingExpiration = true;
+            });
+
+            var redis = ConnectionMultiplexer.Connect("localhost:6379");
+            services.AddDataProtection()
+                .PersistKeysToStackExchangeRedis(redis, "DataProtection-Keys").SetApplicationName("testauth");
         }
 
 
@@ -241,6 +263,7 @@ namespace AuthServer
             }
             app.UseStaticFiles();
             app.UseDefaultFiles();
+            app.UseCors(options => { options.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().AllowCredentials(); });
             app.UseIdentityServer();
             app.UseMvc(routes =>
             {

@@ -9,3 +9,5 @@ D:\zpc\source\demo\ids4\ids4demo\XamarinClient\bin\Debug\netcoreapp2.2\XamarinCl
 D:\zpc\source\demo\ids4\ids4demo\XamarinClient\obj\Debug\netcoreapp2.2\XamarinClient.dll
 D:\zpc\source\demo\ids4\ids4demo\XamarinClient\obj\Debug\netcoreapp2.2\XamarinClient.pdb
 D:\zpc\source\demo\ids4\ids4demo\XamarinClient\obj\Debug\netcoreapp2.2\XamarinClient.csprojAssemblyReference.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\XamarinClient\obj\Debug\netcoreapp2.2\XamarinClient.dll
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\XamarinClient\obj\Debug\netcoreapp2.2\XamarinClient.pdb

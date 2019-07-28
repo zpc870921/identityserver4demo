@@ -23,7 +23,7 @@
             $("#btnid").click(function() {
                 $.ajax({
                     type: 'get',
-                    url: 'http://localhost:5001/api/identity',
+                    url: '/home/GetIdentity',
                     data: {},
                     success: function(d) {
                         if (d) {

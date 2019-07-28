@@ -1,0 +1,41 @@
+﻿@using Microsoft.AspNetCore.Authentication;
+@{
+    ViewData["Title"] = "home Page";
+}
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<p>access_token</p>
+<p>@await ViewContext.HttpContext.GetTokenAsync("access_token")</p>
+
+<p>id_token</p>
+<p>@await ViewContext.HttpContext.GetTokenAsync("id_token")</p>
+
+<p>refresh_token</p>
+<p>@await ViewContext.HttpContext.GetTokenAsync("refresh_token")</p>
+
+<p><input type="button" value="ajax identity" id="btnid" /></p>
+<div id="result"></div>
+@section Scripts{
+    <script type="text/javascript">
+        $(function() {
+            $("#btnid").click(function() {
+                $.ajax({
+                    type: 'get',
+                    url: 'http://localhost:5001/api/identity',
+                    data: {},
+                    success: function(d) {
+                        if (d) {
+                            console.log(d);
+                            $("#result").text(d);
+                        }
+                    },
+                    beforeSend: function(xhr) {
+                        xhr.setRequestHeader("User-Agent", "headertest");
+                    }
+                });
+            });
+        });
+    </script>
+}

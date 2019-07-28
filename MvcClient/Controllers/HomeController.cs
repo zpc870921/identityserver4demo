@@ -27,6 +27,17 @@ namespace MvcClient.Controllers
             return View();
         }
 
+        [HttpPost]
+        [Authorize]
+        public async Task<IActionResult> ajaxtest()
+        {
+            return Json(new
+            {
+                name="zpc",
+                age=20
+            });
+        }
+
         [Authorize]
         public async Task<IActionResult> About()
         {

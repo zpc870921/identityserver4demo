@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 
 namespace MvcClient
 {
@@ -39,7 +40,11 @@ namespace MvcClient
             {
                 options.DefaultScheme = "Cookies";
                 options.DefaultChallengeScheme = "oidc";
-            }).AddCookie("Cookies")
+            }).AddCookie("Cookies", options =>
+                {
+                    options.Cookie.Expiration = TimeSpan.FromHours(12);
+                    options.ExpireTimeSpan = TimeSpan.FromHours(12);
+                })
             .AddOpenIdConnect("oidc",options=> {
                 options.SignInScheme = "Cookies";
                 options.Authority = "http://testauth.com"; 
@@ -47,6 +52,17 @@ namespace MvcClient
                 options.SaveTokens = true;
                 options.ResponseType = "id_token token";
                 options.ClientId = "mvc_implicit";
+                options.ProtocolValidator=new OpenIdConnectProtocolValidator()
+                {
+                    NonceLifetime = TimeSpan.FromHours(12),
+                    RequireStateValidation = false
+                };
+                options.Events.OnTicketReceived = context =>
+                {
+                    context.Properties.IsPersistent = true;
+                    context.Properties.ExpiresUtc = DateTimeOffset.UtcNow.AddHours(12);
+                    return Task.CompletedTask;
+                };
                 //options.ClientSecret = "secret";
                 //options.GetClaimsFromUserInfoEndpoint = true;
                 options.Scope.Add("socialnetwork");

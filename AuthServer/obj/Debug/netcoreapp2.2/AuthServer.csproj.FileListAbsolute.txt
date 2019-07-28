@@ -49,3 +49,14 @@ D:\zpc\source\demo\ids4\ids4demo\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.A
 D:\zpc\source\demo\ids4\ids4demo\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.dll
 D:\zpc\source\demo\ids4\ids4demo\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.pdb
 D:\zpc\source\demo\ids4\ids4demo\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.csprojAssemblyReference.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.dll
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.pdb
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\AuthServer\bin\Debug\netcoreapp2.2\AuthServer.deps.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\AuthServer\bin\Debug\netcoreapp2.2\AuthServer.runtimeconfig.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\AuthServer\bin\Debug\netcoreapp2.2\AuthServer.runtimeconfig.dev.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\AuthServer\bin\Debug\netcoreapp2.2\AuthServer.dll
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\AuthServer\bin\Debug\netcoreapp2.2\AuthServer.pdb
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.csprojAssemblyReference.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.csproj.CoreCompileInputs.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.AssemblyInfoInputs.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.AssemblyInfo.cs

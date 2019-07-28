@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids4demo\\AuthServer\\AuthServer.csproj": {}
+    "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids40605\\ids4demo\\AuthServer\\AuthServer.csproj": {}
   },
   "projects": {
-    "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids4demo\\AuthServer\\AuthServer.csproj": {
+    "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids40605\\ids4demo\\AuthServer\\AuthServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids4demo\\AuthServer\\AuthServer.csproj",
+        "projectUniqueName": "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids40605\\ids4demo\\AuthServer\\AuthServer.csproj",
         "projectName": "AuthServer",
-        "projectPath": "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids4demo\\AuthServer\\AuthServer.csproj",
+        "projectPath": "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids40605\\ids4demo\\AuthServer\\AuthServer.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids4demo\\AuthServer\\obj\\",
+        "outputPath": "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids40605\\ids4demo\\AuthServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -25,7 +25,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://jhnuget.iuoooo.com:8008/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,9 +41,13 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.60.6, )"
+            },
             "IdentityServer4": {
               "target": "Package",
-              "version": "[2.4.0, )"
+              "version": "[2.5.0-preview.2.6, )"
             },
             "IdentityServer4.AspNetIdentity": {
               "target": "Package",
@@ -59,6 +62,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[2.2.5, )"
             },
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",

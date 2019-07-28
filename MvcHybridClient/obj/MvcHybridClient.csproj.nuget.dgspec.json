@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids4demo\\MvcHybridClient\\MvcHybridClient.csproj": {}
+    "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids40605\\ids4demo\\MvcHybridClient\\MvcHybridClient.csproj": {}
   },
   "projects": {
-    "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids4demo\\MvcHybridClient\\MvcHybridClient.csproj": {
+    "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids40605\\ids4demo\\MvcHybridClient\\MvcHybridClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids4demo\\MvcHybridClient\\MvcHybridClient.csproj",
+        "projectUniqueName": "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids40605\\ids4demo\\MvcHybridClient\\MvcHybridClient.csproj",
         "projectName": "MvcHybridClient",
-        "projectPath": "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids4demo\\MvcHybridClient\\MvcHybridClient.csproj",
+        "projectPath": "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids40605\\ids4demo\\MvcHybridClient\\MvcHybridClient.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids4demo\\MvcHybridClient\\obj\\",
+        "outputPath": "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids40605\\ids4demo\\MvcHybridClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -25,7 +25,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://jhnuget.iuoooo.com:8008/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,6 +50,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[2.2.5, )"
             },
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",

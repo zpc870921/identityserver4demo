@@ -9,3 +9,14 @@ D:\zpc\source\demo\ids4\ids4demo\CustomUserServiceClient\bin\Debug\netcoreapp2.2
 D:\zpc\source\demo\ids4\ids4demo\CustomUserServiceClient\obj\Debug\netcoreapp2.2\CustomUserServiceClient.csprojAssemblyReference.cache
 D:\zpc\source\demo\ids4\ids4demo\CustomUserServiceClient\obj\Debug\netcoreapp2.2\CustomUserServiceClient.dll
 D:\zpc\source\demo\ids4\ids4demo\CustomUserServiceClient\obj\Debug\netcoreapp2.2\CustomUserServiceClient.pdb
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\CustomUserServiceClient\bin\Debug\netcoreapp2.2\CustomUserServiceClient.deps.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\CustomUserServiceClient\bin\Debug\netcoreapp2.2\CustomUserServiceClient.runtimeconfig.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\CustomUserServiceClient\bin\Debug\netcoreapp2.2\CustomUserServiceClient.runtimeconfig.dev.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\CustomUserServiceClient\bin\Debug\netcoreapp2.2\CustomUserServiceClient.dll
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\CustomUserServiceClient\bin\Debug\netcoreapp2.2\CustomUserServiceClient.pdb
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\CustomUserServiceClient\obj\Debug\netcoreapp2.2\CustomUserServiceClient.csprojAssemblyReference.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\CustomUserServiceClient\obj\Debug\netcoreapp2.2\CustomUserServiceClient.csproj.CoreCompileInputs.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\CustomUserServiceClient\obj\Debug\netcoreapp2.2\CustomUserServiceClient.AssemblyInfoInputs.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\CustomUserServiceClient\obj\Debug\netcoreapp2.2\CustomUserServiceClient.AssemblyInfo.cs
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\CustomUserServiceClient\obj\Debug\netcoreapp2.2\CustomUserServiceClient.dll
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\CustomUserServiceClient\obj\Debug\netcoreapp2.2\CustomUserServiceClient.pdb

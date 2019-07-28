@@ -43,7 +43,10 @@ namespace AuthServer.Controllers
                     Age = 30,
                     Address = "江西省九江市",
                     Birthday = DateTime.Now.AddYears(-30),
-                    IdCode = "360436043604"
+                    IdCode = "360436043604",
+                    IsAdmin = login.UserName == "443813032@qq.com",
+                    DataEventRecordsRole = "dataEventRecords.admin",
+                    SecuredFilesRole = ""
                 };
                 //var pass= _userManager.PasswordHasher.HashPassword(user, login.Password);
                 // user.PasswordHash = pass;
@@ -58,7 +61,7 @@ namespace AuthServer.Controllers
                 //    //new Claim(JwtClaimTypes.Role,login.UserName=="443813032@qq.com"?"admin":"user")
                 //};
                 //result= await _userManager.AddClaimsAsync(user, claims);
-                //result= await _userManager.AddToRoleAsync(user, login.UserName == "443813032@qq.com"? "admin" : "user");
+                //result = await _userManager.AddToRoleAsync(user, login.UserName == "443813032@qq.com" ? "admin" : "user");
                 //await _signInManager.PasswordSignInAsync(user, login.Password, false, false);
             }
             return Redirect("/");

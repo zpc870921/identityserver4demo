@@ -26,3 +26,17 @@ D:\zpc\source\demo\ids4\ids4demo\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorTarg
 D:\zpc\source\demo\ids4\ids4demo\WebApi\obj\Debug\netcoreapp2.2\WebApi.dll
 D:\zpc\source\demo\ids4\ids4demo\WebApi\obj\Debug\netcoreapp2.2\WebApi.pdb
 D:\zpc\source\demo\ids4\ids4demo\WebApi\obj\Debug\netcoreapp2.2\WebApi.csprojAssemblyReference.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\WebApi\obj\Debug\netcoreapp2.2\WebApi.dll
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\WebApi\obj\Debug\netcoreapp2.2\WebApi.pdb
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\WebApi\bin\Debug\netcoreapp2.2\WebApi.deps.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\WebApi\bin\Debug\netcoreapp2.2\WebApi.runtimeconfig.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\WebApi\bin\Debug\netcoreapp2.2\WebApi.runtimeconfig.dev.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\WebApi\bin\Debug\netcoreapp2.2\WebApi.dll
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\WebApi\bin\Debug\netcoreapp2.2\WebApi.pdb
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\WebApi\obj\Debug\netcoreapp2.2\WebApi.csprojAssemblyReference.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\WebApi\obj\Debug\netcoreapp2.2\WebApi.csproj.CoreCompileInputs.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorAssemblyInfo.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorAssemblyInfo.cs
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\WebApi\obj\Debug\netcoreapp2.2\WebApi.AssemblyInfoInputs.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\WebApi\obj\Debug\netcoreapp2.2\WebApi.AssemblyInfo.cs
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorTargetAssemblyInfo.cache

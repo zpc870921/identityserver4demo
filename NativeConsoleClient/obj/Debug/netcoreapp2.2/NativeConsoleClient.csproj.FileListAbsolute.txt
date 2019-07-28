@@ -9,3 +9,14 @@ D:\zpc\source\demo\ids4\ids4demo\NativeConsoleClient\obj\Debug\netcoreapp2.2\Nat
 D:\zpc\source\demo\ids4\ids4demo\NativeConsoleClient\obj\Debug\netcoreapp2.2\NativeConsoleClient.AssemblyInfo.cs
 D:\zpc\source\demo\ids4\ids4demo\NativeConsoleClient\obj\Debug\netcoreapp2.2\NativeConsoleClient.dll
 D:\zpc\source\demo\ids4\ids4demo\NativeConsoleClient\obj\Debug\netcoreapp2.2\NativeConsoleClient.pdb
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\NativeConsoleClient\bin\Debug\netcoreapp2.2\NativeConsoleClient.deps.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\NativeConsoleClient\bin\Debug\netcoreapp2.2\NativeConsoleClient.runtimeconfig.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\NativeConsoleClient\bin\Debug\netcoreapp2.2\NativeConsoleClient.runtimeconfig.dev.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\NativeConsoleClient\bin\Debug\netcoreapp2.2\NativeConsoleClient.dll
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\NativeConsoleClient\bin\Debug\netcoreapp2.2\NativeConsoleClient.pdb
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\NativeConsoleClient\obj\Debug\netcoreapp2.2\NativeConsoleClient.csprojAssemblyReference.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\NativeConsoleClient\obj\Debug\netcoreapp2.2\NativeConsoleClient.csproj.CoreCompileInputs.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\NativeConsoleClient\obj\Debug\netcoreapp2.2\NativeConsoleClient.AssemblyInfoInputs.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\NativeConsoleClient\obj\Debug\netcoreapp2.2\NativeConsoleClient.AssemblyInfo.cs
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\NativeConsoleClient\obj\Debug\netcoreapp2.2\NativeConsoleClient.dll
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\NativeConsoleClient\obj\Debug\netcoreapp2.2\NativeConsoleClient.pdb

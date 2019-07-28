@@ -11,3 +11,17 @@ D:\zpc\source\demo\ids4\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaSc
 D:\zpc\source\demo\ids4\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.RazorTargetAssemblyInfo.cache
 D:\zpc\source\demo\ids4\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.dll
 D:\zpc\source\demo\ids4\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.pdb
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\JavaScriptClient\bin\Debug\netcoreapp2.2\JavaScriptClient.deps.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\JavaScriptClient\bin\Debug\netcoreapp2.2\JavaScriptClient.runtimeconfig.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\JavaScriptClient\bin\Debug\netcoreapp2.2\JavaScriptClient.runtimeconfig.dev.json
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\JavaScriptClient\bin\Debug\netcoreapp2.2\JavaScriptClient.dll
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\JavaScriptClient\bin\Debug\netcoreapp2.2\JavaScriptClient.pdb
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.csprojAssemblyReference.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.csproj.CoreCompileInputs.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.RazorAssemblyInfo.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.RazorAssemblyInfo.cs
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.AssemblyInfoInputs.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.AssemblyInfo.cs
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.RazorTargetAssemblyInfo.cache
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.dll
+E:\Test\Demo\coredemo\IdentityServer4Demo\ids40605\ids4demo\JavaScriptClient\obj\Debug\netcoreapp2.2\JavaScriptClient.pdb

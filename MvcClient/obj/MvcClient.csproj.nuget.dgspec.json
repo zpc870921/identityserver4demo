@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids4demo\\MvcClient\\MvcClient.csproj": {}
+    "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids40605\\ids4demo\\MvcClient\\MvcClient.csproj": {}
   },
   "projects": {
-    "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids4demo\\MvcClient\\MvcClient.csproj": {
+    "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids40605\\ids4demo\\MvcClient\\MvcClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids4demo\\MvcClient\\MvcClient.csproj",
+        "projectUniqueName": "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids40605\\ids4demo\\MvcClient\\MvcClient.csproj",
         "projectName": "MvcClient",
-        "projectPath": "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids4demo\\MvcClient\\MvcClient.csproj",
+        "projectPath": "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids40605\\ids4demo\\MvcClient\\MvcClient.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids4demo\\MvcClient\\obj\\",
+        "outputPath": "E:\\Test\\Demo\\coredemo\\IdentityServer4Demo\\ids40605\\ids4demo\\MvcClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -25,7 +25,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://jhnuget.iuoooo.com:8008/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

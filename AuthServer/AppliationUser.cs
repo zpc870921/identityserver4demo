@@ -14,5 +14,8 @@ namespace AuthServer
         public int CompanyId { get; set; }
         public string Address { get; set; }
         public string IdCode { get; set; }
+        public bool IsAdmin { get; set; }
+        public string SecuredFilesRole { get; set; }
+        public string DataEventRecordsRole { get; set; }
     }
 }

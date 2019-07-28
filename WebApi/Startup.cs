@@ -4,6 +4,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.DataProtection;
+using Microsoft.AspNetCore.Mvc.Authorization;
+using StackExchange.Redis;
 
 namespace WebApi
 {
@@ -31,29 +35,46 @@ namespace WebApi
                     Version = "v1"
                 });
             });
-            //services.AddAuthorization();
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+           
 
             services.AddCors(options =>
             {
-                options.AddDefaultPolicy(policy =>
+                options.AddPolicy("corstest",policy =>
                 {
                     policy.AllowAnyOrigin()//WithOrigins("http://localhost:5005")
                         .AllowAnyHeader()
-                        .AllowAnyMethod();
+                        .AllowAnyMethod()
+                        .AllowCredentials();
                 });
             });
 
             services.AddAuthentication("Bearer").AddIdentityServerAuthentication(options =>
             {
                 options.Authority = "http://testauth.com";
-                options.ApiName = "socialnetwork";
-                options.ApiSecret = "secret";
+                options.ApiName = "dataEventRecords"; //"socialnetwork";
+                options.ApiSecret = "dataEventRecordsSecret";// "secret";
                 options.EnableCaching = true;
                 options.CacheDuration = TimeSpan.FromMinutes(10);
                 options.RequireHttpsMetadata = false;
             });
-            
+
+            var guestPolicy=new AuthorizationPolicyBuilder().RequireAuthenticatedUser()
+                .RequireClaim("scope", "dataEventRecords").Build();
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("dataEventRecordsAdmin", policy => { policy.RequireClaim("role", "dataEventRecords.admin"); });
+                options.AddPolicy("dataEventRecordsUser", policy => { policy.RequireClaim("role", "dataEventRecords.user"); });
+                options.AddPolicy("dataEventRecords", policy => { policy.RequireClaim("scope", "dataEventRecords"); });
+            });
+
+            var redis = ConnectionMultiplexer.Connect("localhost:6379");
+            services.AddDataProtection()
+                .PersistKeysToStackExchangeRedis(redis, "DataProtection-Keys").SetApplicationName("testapi");
+
+            //services.AddAuthorization();
+            services.AddMvc(options => { options.Filters.Add(new AuthorizeFilter(guestPolicy)); }).SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -68,7 +89,7 @@ namespace WebApi
             {
                 options.SwaggerEndpoint("/swagger/doc1/swagger.json", "doc1");
             });
-            //app.UseCors("default");
+            app.UseCors("corstest");
             //app.UseCors();
             app.UseAuthentication();
             app.UseMvc();

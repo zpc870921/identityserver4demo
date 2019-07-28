@@ -16,10 +16,26 @@ namespace AuthServer.Configuration
             return new List<ApiResource> {
                 new ApiResource("socialnetwork","socialnetwork api"){
                      UserClaims={ "email","role","given_name","family_name","name","sub","UserId"},
-                     ApiSecrets=
+                   ApiSecrets=
                      {
                          new Secret("secret".Sha256())
                      }
+                },
+                new ApiResource("dataEventRecords")
+                {
+                    ApiSecrets =
+                    {
+                        new Secret("dataEventRecordsSecret".Sha256())
+                    },
+                    //Scopes =
+                    //{
+                    //    new Scope
+                    //    {
+                    //        Name = "dataeventrecords",
+                    //        DisplayName = "Scope for the dataEventRecords ApiResource"
+                    //    }
+                    //},
+                    UserClaims = { "role", "admin", "user", "dataEventRecords", "dataEventRecords.admin", "dataEventRecords.user" }
                 }
             };
         }
@@ -27,6 +43,24 @@ namespace AuthServer.Configuration
         public static IEnumerable<Client> GetClients()
         {
             return new List<Client> {
+                new Client(){
+                    ClientId="postman-api",
+                    ClientName="postman test client",
+                    AllowedGrantTypes=GrantTypes.Code,
+                    AllowAccessTokensViaBrowser=true,
+                    RequireConsent=false,
+                    RedirectUris={ "https://www.getpostman.com/oauth2/callback"},
+                    PostLogoutRedirectUris={"https://www.getpostman.com" },
+                    AllowedCorsOrigins={"https://www.getpostman.com" },
+                    EnableLocalLogin=true,
+                    AllowedScopes={
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.Email,
+                        "socialnetwork"
+                    },
+                    ClientSecrets={ new Secret("secret".Sha256())}
+                },
                 new Client(){
                     ClientId="userservices",
                     ClientName="自定义用户服务client",
@@ -191,7 +225,9 @@ namespace AuthServer.Configuration
                     //RequireConsent=false,
                     RedirectUris={"http://implicitmvc.com/signin-oidc"},
                     PostLogoutRedirectUris={ "http://implicitmvc.com/signout-callback-oidc"},
-                    AllowAccessTokensViaBrowser=true
+                    AllowAccessTokensViaBrowser=true,
+                    AccessTokenLifetime = 43200,
+                    IdentityTokenLifetime = 43200
                 },
                 new Client{
                     ClientId="mvc_code",
@@ -203,7 +239,10 @@ namespace AuthServer.Configuration
                         IdentityServerConstants.StandardScopes.Profile,
                         IdentityServerConstants.StandardScopes.Email,
                         "socialnetwork",
-                        "roles"
+                        "dataEventRecords",
+                        "dataeventrecordsscope",
+                        "role",
+                        "offline_access"
                     },
                     RequireConsent=false,
                     RedirectUris={ "http://hybridmvc.com/signin-oidc"},
@@ -217,7 +256,9 @@ namespace AuthServer.Configuration
                     Claims=
                     {
                         new Claim("gender","male")
-                    }
+                    },
+                    AccessTokenLifetime = 43200,
+                    IdentityTokenLifetime = 43200
                 },
                 new Client{
                      ClientId="js",
@@ -239,6 +280,48 @@ namespace AuthServer.Configuration
                         IdentityServerConstants.StandardScopes.Email,
                         "socialnetwork"
                     }
+                },
+                new Client
+                {
+                    ClientName = "vuejs_code_client",
+                    ClientId = "vuejs_code_client",
+                    AccessTokenType = AccessTokenType.Reference,
+                    // RequireConsent = false,
+                    AccessTokenLifetime =15*60,// 330 seconds, default 60 minutes
+                    IdentityTokenLifetime = 300,
+                    RequireConsent = false,
+                    AllowOfflineAccess = true,
+
+                    RequireClientSecret = false,
+                    AllowedGrantTypes = GrantTypes.Code,
+                    RequirePkce = true,
+
+                    AllowAccessTokensViaBrowser = true,
+                    RedirectUris = new List<string>
+                    {
+                        "http://vuejsclient.com",
+                        "http://vuejsclient.com/callback.html",
+                        "http://vuejsclient.com/silent-renew.html"
+                    },
+                    PostLogoutRedirectUris = new List<string>
+                    {
+                        "http://vuejsclient.com/",
+                        "http://vuejsclient.com"
+                    },
+                    AllowedCorsOrigins = new List<string>
+                    {
+                        "http://vuejsclient.com"
+                    },
+                    AllowedScopes = new List<string>
+                    {
+                        "openid",
+                        "dataEventRecords",
+                        "dataeventrecordsscope",
+                        "role",
+                        "profile",
+                        "offline_access",
+                        "email"
+                    }
                 }
             };
         }
@@ -249,7 +332,9 @@ namespace AuthServer.Configuration
                 new IdentityResources.OpenId(),
                 new IdentityResources.Profile(),
                 new IdentityResources.Email(),
-                new IdentityResource("roles","role",new List<string>{ "role"})
+                new IdentityResource("roles","role",new List<string>{ "role"}),
+                new IdentityResource("dataeventrecordsscope",new []{ "role", "admin", "user", "dataEventRecords", "dataEventRecords.admin" , "dataEventRecords.user" } ),
+                new IdentityResource("securedfilesscope",new []{ "role", "admin", "user", "securedFiles", "securedFiles.admin", "securedFiles.user"} )
             };
         }
 

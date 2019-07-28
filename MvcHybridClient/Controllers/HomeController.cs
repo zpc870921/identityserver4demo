@@ -33,6 +33,7 @@ namespace MvcHybridClient.Controllers
             return View();
         }
 
+        [Authorize]
         public IActionResult Privacy()
         {
             return View();
@@ -79,12 +80,13 @@ namespace MvcHybridClient.Controllers
             await HttpContext.SignInAsync("Cookies", authenticateInfo.Principal, authenticateInfo.Properties);
         }
 
+        [Authorize]
         public async Task<IActionResult> GetIdentity()
         {
-            await refresh_token();
+           // await refresh_token();
 
             var client = _factory.CreateClient();
-            client.BaseAddress = new Uri("http://localhost:5001");
+            client.BaseAddress = new Uri("http://testapi.com");
             var token = await HttpContext.GetTokenAsync("access_token");
             client.DefaultRequestHeaders.Add("Authorization",$"Bearer {token}");
             var data=await client.GetStringAsync("api/identity");

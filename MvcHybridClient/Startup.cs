@@ -4,13 +4,16 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
 using IdentityModel;
+using IdentityModel.AspNetCore;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using StackExchange.Redis;
 
 namespace MvcHybridClient
 {
@@ -29,7 +32,7 @@ namespace MvcHybridClient
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
-                options.CheckConsentNeeded = context => true;
+                options.CheckConsentNeeded = context => false;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
             services.AddHttpClient();
@@ -41,8 +44,10 @@ namespace MvcHybridClient
                 options.DefaultScheme = "Cookies";
                 options.DefaultChallengeScheme = "oidc";
             }).AddCookie("Cookies",options=> {
+                options.ExpireTimeSpan = TimeSpan.FromHours(12);
+                options.Cookie.Name = "mvchybridautorefresh";
                 options.AccessDeniedPath = "/authorization/accessdenied";
-            })
+            }).AddAutomaticTokenManagement()
             .AddOpenIdConnect("oidc",options=> {
                 options.Authority = "http://testauth.com";
                 options.ClientId = "mvc_code";
@@ -54,18 +59,24 @@ namespace MvcHybridClient
                 options.Scope.Add("openid");
                 options.Scope.Add("profile");
                 options.Scope.Add("socialnetwork");
+                options.Scope.Add("dataEventRecords");
                 options.Scope.Add("offline_access");
                 options.Scope.Add("email");
-                options.Scope.Add("roles");
+                //options.Scope.Add("roles");
 
                 options.GetClaimsFromUserInfoEndpoint = true;
-                options.ClaimActions.MapUniqueJsonKey("role","role");
+                //options.ClaimActions.MapUniqueJsonKey("role","role");
+
+                options.ClaimActions.MapAllExcept("iss", "nbf", "exp", "aud", "nonce", "iat", "c_hash");
+
                 options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters {
-                     NameClaimType=JwtClaimTypes.GivenName,
+                     NameClaimType=JwtClaimTypes.Name,
                      RoleClaimType=JwtClaimTypes.Role
                 };
             });
-
+            var redis = ConnectionMultiplexer.Connect("localhost:6379");
+            services.AddDataProtection()
+                .PersistKeysToStackExchangeRedis(redis, "DataProtection-Keys").SetApplicationName("hybridmvc");
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
